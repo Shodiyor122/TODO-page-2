@@ -162,7 +162,7 @@ class _TodoPage2State extends State<TodoPage2> {
                 ),
 
                 SizedBox(
-                  height: 130,
+                  height: 131,
                 ),
 
                 Center(
