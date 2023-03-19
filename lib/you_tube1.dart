@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_7/Todo/todo_page2.dart';
 
 
 class YouTubeVideo extends StatefulWidget {
@@ -68,6 +69,9 @@ Contdimentum blandit diam""",
                 Padding(
                   padding: const EdgeInsets.only(right: 20, left: 20),
                   child: InkWell(
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => TodoPage2()));
+                    },
                     child: Container(
                       width: double.infinity,
                       height: 60,
